@@ -30,7 +30,7 @@ public class Guru99Login {
 	  
 	 driver.get(GuruURL); 
 	 login.UserName.sendKeys(UserID);
-	 login.PassWord.sendKeys(PassCode);
+	 login.PassWord.sendKeys("123");
 	 login.Submit.submit();  
 	  
   }
